@@ -1,0 +1,94 @@
+{
+    "M1_General_0x640": {
+        "id": 1600,
+        "signals": {
+            "Engine_Speed": {
+                "start_bit": 8,
+                "length": 16,
+                "is_signed": false,
+                "byte_order": "Motorola",
+                "factor": 1,
+                "offset": 0,
+                "min_value": 0,
+                "max_value": 16000,
+                "unit": "RPM"
+            },
+            "Throttle_Position": {
+                "start_bit": 56,
+                "length": 16,
+                "is_signed": false,
+                "byte_order": "Motorola",
+                "factor": 0.1,
+                "offset": 0,
+                "min_value": 0,
+                "max_value": 100,
+                "unit": "%"
+            }
+        }
+    },
+    "M1_General_0x64E": {
+        "id": 1614,
+        "signals": {
+            "Brake_Switch": {
+                "start_bit": 28,
+                "length": 1,
+                "is_signed": false,
+                "byte_order": "Motorola",
+                "factor": 1,
+                "offset": 0,
+                "min_value": 0,
+                "max_value": 1,
+                "unit": null
+            }
+        }
+    },
+    "WHEEL_SPEEDS_1D0": {
+        "id": 464,
+        "signals": {
+            "Wheel_Speed_FL": {
+                "start_bit": 14,
+                "length": 15,
+                "is_signed": false,
+                "byte_order": "Motorola",
+                "factor": 0.01,
+                "offset": 0,
+                "min_value": 0,
+                "max_value": 250,
+                "unit": "kph"
+            },
+            "Wheel_Speed_FR": {
+                "start_bit": 29,
+                "length": 15,
+                "is_signed": false,
+                "byte_order": "Motorola",
+                "factor": 0.01,
+                "offset": 0,
+                "min_value": 0,
+                "max_value": 250,
+                "unit": "kph"
+            },
+            "Wheel_Speed_RL": {
+                "start_bit": 43,
+                "length": 15,
+                "is_signed": false,
+                "byte_order": "Motorola",
+                "factor": 0.01,
+                "offset": 0,
+                "min_value": 0,
+                "max_value": 250,
+                "unit": "kph"
+            },
+            "Wheel_Speed_RR": {
+                "start_bit": 58,
+                "length": 15,
+                "is_signed": false,
+                "byte_order": "Motorola",
+                "factor": 0.01,
+                "offset": 0,
+                "min_value": 0,
+                "max_value": 250,
+                "unit": "kph"
+            }
+        }
+    }
+}

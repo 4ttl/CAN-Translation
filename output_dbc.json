@@ -1,0 +1,89 @@
+{
+    "POWERTRAIN_17C": {
+        "id": 380,
+        "signals": {
+            "Throttle_Position": {
+                "start_bit": 0,
+                "length": 8,
+                "is_signed": false,
+                "byte_order": "Motorola",
+                "factor": 1,
+                "offset": 0,
+                "min_value": 0,
+                "max_value": 255,
+                "unit": null
+            },
+            "Engine_Speed": {
+                "start_bit": 32,
+                "length": 16,
+                "is_signed": false,
+                "byte_order": "Motorola",
+                "factor": 1,
+                "offset": 0,
+                "min_value": 0,
+                "max_value": 15000,
+                "unit": "rpm"
+            },
+            "Brake_Switch": {
+                "start_bit": 39,
+                "length": 1,
+                "is_signed": false,
+                "byte_order": "Motorola",
+                "factor": 1,
+                "offset": 0,
+                "min_value": 0,
+                "max_value": 1,
+                "unit": null
+            }
+        }
+    },
+    "WHEEL_SPEEDS_24A": {
+        "id": 586,
+        "signals": {
+            "Wheel_Speed_FL": {
+                "start_bit": 0,
+                "length": 16,
+                "is_signed": false,
+                "byte_order": "Intel",
+                "factor": 0.15625,
+                "offset": 0,
+                "min_value": 0,
+                "max_value": 100,
+                "unit": "m/s"
+            },
+            "Wheel_Speed_FR": {
+                "start_bit": 16,
+                "length": 16,
+                "is_signed": false,
+                "byte_order": "Intel",
+                "factor": 0.15625,
+                "offset": 0,
+                "min_value": 0,
+                "max_value": 100,
+                "unit": "m/s"
+            },
+            "Wheel_Speed_RL": {
+                "start_bit": 32,
+                "length": 16,
+                "is_signed": false,
+                "byte_order": "Intel",
+                "factor": 0.15625,
+                "offset": 0,
+                "min_value": 0,
+                "max_value": 100,
+                "unit": "m/s"
+            },
+            "Wheel_Speed_RR": {
+                "start_bit": 48,
+                "length": 16,
+                "is_signed": false,
+                "byte_order": "Intel",
+                "factor": 0.16525,
+                "offset": 0,
+                "min_value": 0,
+                "max_value": 100,
+                "unit": "m/s"
+            }
+        }
+    }
+}
