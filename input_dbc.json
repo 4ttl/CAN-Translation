@@ -46,7 +46,7 @@
         "id": 464,
         "signals": {
             "Wheel_Speed_FL": {
-                "start_bit": 14,
+                "start_bit": 9,
                 "length": 15,
                 "is_signed": false,
                 "byte_order": "Motorola",
@@ -57,7 +57,7 @@
                 "unit": "kph"
             },
             "Wheel_Speed_FR": {
-                "start_bit": 29,
+                "start_bit": 26,
                 "length": 15,
                 "is_signed": false,
                 "byte_order": "Motorola",
@@ -79,7 +79,7 @@
                 "unit": "kph"
             },
             "Wheel_Speed_RR": {
-                "start_bit": 58,
+                "start_bit": 60,
                 "length": 15,
                 "is_signed": false,
                 "byte_order": "Motorola",
